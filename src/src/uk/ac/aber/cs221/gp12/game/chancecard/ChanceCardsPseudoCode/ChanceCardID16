@@ -1,0 +1,70 @@
+public void ChanceCardID[16] (Player player) {
+    if (playerNumOfTreasure = 2){
+        print "Sorry, you can't take anymore treasure"
+    }
+    else {
+        treasureValueToTake = 7
+        // check the maximum the value of treasure to take
+        if (totalValueOfTreasure < treasureValueToTake){
+            print "Sorry, there isn't enough treasure available to fulfill the Chance Card. You may only take a total value of " , totalTreasureValue, "treasure"
+            treasureValueToTake = totalValueOfTreasure
+        }
+        // allow player to take treasure
+        while (playerNumOfTreasure < 2){
+              if ( treasureSelectedValue <= treasureValueToTake){
+                  add treasure to Player ship
+                  treasureValueToTake -= TreasureSelectedValue
+                  numOfTreasure ++
+              }
+              else {
+                   print "Sorry that Treasure's value is too high"
+              }
+        }
+
+    }
+
+    // reduce crew to 10 if it is above 10
+    done = false
+    while (done = false) {
+        if (playerCrewValue <= 10){
+            print "Total Crew is 10. No more cards , if any, need to be removed"
+            done = true
+            break
+        }
+        // check for lowest crew value
+        int lowestCrewValue = 5
+        for(int j=0; j < numOfCards; j++){
+            int currentCrewValue = crewValuesInHand[j]
+            if (currentValue < lowestCrewValue){
+                lowestCrewValue = currentValue;
+            }
+        }
+        // get list of cards to remove
+        List cardsToRemove[]
+        List CrewCards[]
+        for (int k=0; k < numOfCards; k++){
+            int currentCrewValue = crewValuesInHand[j]
+            if (currenCrewValue == lowestCrewValue) {
+                Crew Card thisCard = CrewCards[j]
+                cardsToRemove.add(thisCard)
+            }
+        }
+        // randomise card to remove
+        int listSize = cardsToRemove.size();
+        Random rand = new Random();
+        int cardIndex = rand.nextInt(listSize);
+        **/System.out.print("Index to remove is: ");
+        System.out.println(cardIndex);
+        System.out.print("Hand size is: ");
+        System.out.println(players[i].getCrews().size());**/
+
+        // remove card from player's hand and return it to the pack.
+        CrewCard cardToMove = players[i].getCrews().get(cardIndex);
+        PirateIsland.getCrewCardDeck.add(cardToMove)
+        players[i].getCrews().remove(cardToMove)
+
+
+    }
+}
+
+

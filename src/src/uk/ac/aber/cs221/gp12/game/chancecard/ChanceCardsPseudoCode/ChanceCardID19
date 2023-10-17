@@ -1,0 +1,16 @@
+public void ChanceCardID[19] (Player player) {
+    // return all player crews to bottom of the crew card deck
+    // Then draw the same amount of crew cards from the top of the deck
+    get playerCrewsInHand
+    handLen = get length of playerCrewsInHand
+    // return hand to pack
+    for (int i=0; i < handLen; i++){
+        crewCardPack.add (playerCrewsInHand[i])
+    }
+    // draw from pack
+    for (int i=0; i < handLen; i++){
+        playerCrewsInHand.add (crewCardPack[i])
+    }
+}
+
+

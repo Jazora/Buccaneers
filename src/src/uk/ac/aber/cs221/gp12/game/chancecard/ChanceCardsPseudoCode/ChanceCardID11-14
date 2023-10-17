@@ -1,0 +1,43 @@
+public void ChanceCardID[11-14] (Player player) {
+	boolean playerDecision;
+	if (numOfTreasureAvailable == 0){
+		playerDecision = true
+	}
+    else if (numOfCardsAvailable == 0){
+        playerDecision = false
+    }
+	else {
+		if (numOfCardsAvailable < cardNumToTake){
+		    print "Sorry, there isn't enough crew cards available. You will receive " ,numOfCards, "crew cards if you choose this option"
+        }
+        if (totalTreasureValue < treasureValueToTake){
+            print "Sorry, there isn't enough treasure available. You may only take a total value of " , totalTreasureValue, "treasure"
+        }
+	}
+
+    if (playerDecison == null){
+        print "Which option do you want to choose"
+    }
+    
+
+	
+	if (playerDecison == true) {
+        while (playerNumOfTreasure < 2){
+            if ( treasureSelectedValue <= treasureValueToTake){
+                add treasure to Player ship
+                treasureValueToTake -= TreasureSelectedValue
+                numOfTreasure ++
+            }
+            else {
+                print "Sorry that Treasure's value is too high"
+                }
+        }
+    }
+    else {
+        for (i=0; i < 2; i++){
+            add card to Player hand
+        }
+    }
+        
+                
+		

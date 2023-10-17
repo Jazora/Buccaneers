@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.shape.Rectangle?>
+<AnchorPane fx:id="content_page" id="background_pane" xmlns:fx="http://javafx.com/fxml" fx:controller="uk.ac.aber.cs221.gp12.game.ui.controllers.MainMenuController">
+    <Text styleClass="button_style">Version: big chungus</Text>
+
+    <VBox layoutY="150" layoutX="440">
+        <stylesheets>
+            <URL value="@../styling.css"/>
+        </stylesheets>
+        <Label styleClass="button_style" text="PLAY" onMouseClicked="#onPlayButtonClick"/>
+        <Label styleClass="button_style" text="LOAD" onMouseClicked="#onLoad"/>
+        <Label fx:id="closeButton" styleClass="button_style" text="EXIT" onMouseClicked="#onExit"/>
+    </VBox>
+    <Rectangle fx:id="cover_screen" width="1600" height="900" id="cover_screen"/>
+</AnchorPane>

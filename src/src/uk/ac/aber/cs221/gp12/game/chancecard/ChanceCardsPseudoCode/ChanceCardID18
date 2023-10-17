@@ -1,0 +1,33 @@
+public void ChanceCardID[18] (Player player) {
+    if (playerNumOfTreasure == 2){
+        print "Sorry, you can't take anymore treasure"
+    }
+    else {
+        treasureValueToTake = 4
+        if (totalValueOfTreasure < treasureValueToTake){
+            print "Sorry, there isn't enough treasure available. You may only take a total value of " , totalTreasureValue, "treasure"
+            treasureValueToTake = totalValueOfTreasure
+        }
+        // allow player to take treasure
+        while (playerNumOfTreasure < 2){
+              if ( treasureSelectedValue <= treasureValueToTake){
+                 add treasure to Player ship
+                 treasureValueToTake -= TreasureSelectedValue
+                 numOfTreasure ++
+              }
+              else {
+                   print "Sorry that Treasure's value is too high"
+              }
+        }
+
+    }
+    // take crew cards if CrewValue < 7
+    if (playerCrewValue < 7) {
+        for (int i=0; i < 2; i++){
+            PlayerCrewsInHand.add(PirateIsland.getCrewCardDeck.add(0))
+            PirateIsland.getCrewCardDeck.remove(0)
+        }
+    }
+
+}
+

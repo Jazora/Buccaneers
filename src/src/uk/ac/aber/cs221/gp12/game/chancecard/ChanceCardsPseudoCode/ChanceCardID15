@@ -1,0 +1,11 @@
+public void ChanceCardID[15] (Player player) {
+    // take two crew cards
+    if ( numOfCardsAvailable = 0 ) {
+        print "No crew cards can be added to your hand because none are available "
+    }
+    else if (numOfCardsAvailable < 2){
+        add (NumOfCardsAvailable) amount of crew cards to Player hand
+    }
+    else {
+        add 2 crew cards to Player hand
+    }

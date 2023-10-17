@@ -1,0 +1,42 @@
+public void ChanceCardID[10] (Player player) {
+    // take highest value crew card from player hand
+    // first check for highest value cards
+    int highestCrewValue = 0
+    for(int j=0; j < numOfCards; j++){
+        int currentCrewValue = crewValuesInHand[j]
+        if (currentValue > highestCrewValue){
+            highestCrewValue = currentValue;
+        }
+    }
+
+    // get list of cards to remove
+    List cardsToRemove[]
+    List CrewCards[]
+    for (int k=0; k < numOfCards; k++){
+        int currentCrewValue = crewValuesInHand[j]
+        if (currenCrewValue == lowestCrewValue) {
+           Crew Card thisCard = CrewCards[j]
+           cardsToRemove.add(thisCard)
+        }
+    }
+    // randomise card to remove
+    int listSize = cardsToRemove.size();
+    /**System.out.print("List size is: ");
+    System.out.println(listSize);**/
+    Random rand = new Random();
+    int cardIndex = rand.nextInt(listSize);
+    **System.out.print("Index to remove is: ");
+    System.out.println(cardIndex);
+    System.out.print("Hand size is: ");
+    System.out.println(players[i].getCrews().size());**/
+
+    // remove card from player's hand and return it to the pack.
+    CrewCard cardToMove = players[i].getCrews().get(cardIndex);
+    players[i].getCrews().remove(cardIndex);
+    /**System.out.print("Hand size after removal is: ");
+    System.out.println(players[i].getCrews().size());**/
+
+
+}
+
+

@@ -1,0 +1,51 @@
+public void ChanceCardID[9] (Player player) {
+    // take highest value treasure from player and place on flat island
+    // if no treasure, assign highest value card, to flat island
+    int highestTreasureValue = 0
+    if (playerNumOfTreasures > 0){
+        Treasure[] treasures = getPlayerTreasures
+        int highestTreasureIndex = 0
+        for (int i=0; i < length of treasures){
+            if (highestTreasureValue < treasures[i].getTreasureValue){
+                highestTreasureValue = treasures[i].getTreasureValue
+                highestTreasureIndex = i
+            }
+        }
+        FlatIsland.add(getPlayerTreasures.add(highestTreasureIndex))
+        getPlayerTreasures.remove(highestTreasureIndex)
+    }
+    else {
+        // remove the player's two lowest cards
+        for (int j=0; j < 2; j++){
+            // check for lowest crew value
+            int lowestCrewValue = 5
+            for(int k=0; k < numOfCards; k++){
+               int currentCrewValue = crewValuesInHand[k]
+               if (currentValue < lowestCrewValue){
+                   lowestCrewValue = currentValue
+               }
+            }
+            // get list of cards to remove
+            List cardsToRemove[]
+            List CrewCards[]
+            for (int k=0; k < numOfCards; k++){
+                int currentCrewValue = crewValuesInHand[j]
+                if (currenCrewValue == lowestCrewValue) {
+                   Crew Card thisCard = CrewCards[j]
+                   cardsToRemove.add(thisCard)
+                }
+            }
+            Crew Card cardToRemove = cardsToRemove[j]
+            FlatIsland.add(playerCrewsInHand.remove(cardToRemove))
+            playerCrewsInHand.remove(cardToRemove)
+        }
+
+    }
+}
+
+
+
+
+}
+
+

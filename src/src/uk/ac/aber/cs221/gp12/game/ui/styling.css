@@ -1,0 +1,96 @@
+#background_pane {
+    -fx-background-image: url(content/resources/old-brown-paper-texture-image_1080.jpg);
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1600 900;
+    -fx-background-position: center center;
+}
+
+#logo {
+    -fx-font-size: 6em;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: black;
+    -fx-text-alignment: center;
+}
+
+#label {
+    -fx-alignment: middle;
+    -fx-text-alignment: middle;
+}
+
+.button_style {
+    -fx-font-size: 4em;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: #020244;
+    -fx-text-alignment: center;
+}
+
+.button_style:hover{
+    -fx-font-size: 4em;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: #6161f6;
+}
+
+.port_name {
+    -fx-font-size: 2em;
+    -fx-text-alignment: center;
+    -fx-text-fill: #2f0c00;
+}
+
+.port_contents{
+    -fx-font-size: 1em;
+    -fx-text-alignment: center;
+    -fx-text-fill: #2f0c00;
+}
+
+.player_name {
+    -fx-font-size: 4em;
+}
+
+.player_info {
+    -fx-font-size: 2em;
+}
+
+.pop_up_title_style {
+    -fx-font-size: 3em;
+}
+
+.pop_up_content_style {
+    -fx-font-size: 2em;
+}
+
+.pop_up_bg {
+    -fx-border-color: black;
+}
+
+.player_name_0 .text{
+    -fx-font-size: 3em;
+
+    -fx-fill: #ee4545;
+    -fx-font-weight: bold;
+    -fx-stroke: black;
+    -fx-stroke-width: 1px;
+}
+
+.player_name_1 .text{
+    -fx-font-size: 3em;
+    -fx-fill: Dodgerblue;
+    -fx-font-weight: bold;
+    -fx-stroke: black;
+    -fx-stroke-width: 1px;
+}
+
+.player_name_2 .text{
+    -fx-font-size: 3em;
+    -fx-fill: GreenYellow;
+    -fx-font-weight: bold;
+    -fx-stroke: black;
+    -fx-stroke-width: 1px;
+}
+
+.player_name_3 .text{
+    -fx-font-size: 3em;
+    -fx-fill: yellow;
+    -fx-font-weight: bold;
+    -fx-stroke: black;
+    -fx-stroke-width: 1px;
+}

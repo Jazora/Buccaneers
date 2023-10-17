@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="content_page" id="background_pane" xmlns:fx="http://javafx.com/fxml" fx:controller="uk.ac.aber.cs221.gp12.game.ui.controllers.GameController">
+
+    <stylesheets>
+        <URL value="@../styling.css"/>
+    </stylesheets>
+    <Rectangle fx:id="cover_screen" width="1600" height="900" id="cover_screen" opacity="0"/>
+    <GridPane fx:id="board">
+
+    </GridPane>
+</AnchorPane>

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"uk.ac.aber.cs221.gp12.game"},{"l":"uk.ac.aber.cs221.gp12.game.gamestate"},{"l":"uk.ac.aber.cs221.gp12.game.gson"},{"l":"uk.ac.aber.cs221.gp12.game.ui"},{"l":"uk.ac.aber.cs221.gp12.game.ui.controllers"}];updateSearchResults();
