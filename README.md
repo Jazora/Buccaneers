@@ -2,8 +2,6 @@
 
 Software Engineering 2021-2022 Group Project
 
-Please add your username to make sure everyone has access to the repo
-
 Maintainers:
 
 jah143 - Developer
